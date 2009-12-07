@@ -1,0 +1,227 @@
+/*
+ * The VObject GrailsFuse is an open source project and project skeleton that leverage 
+ * Grails Framework and it's plugins to jump-start development of web application 
+ * that running on Google App Engine (GAE/G). 
+ * Copyright (C) VObject.com
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ *
+ * Author: Lim Chee Kin (limcheekin@vobject.com)
+ *
+ */
+
+	div#top_nav {
+	  position: absolute; 
+	  padding-top: 3px;
+	  margin-bottom: 5px;
+	  left: 2px;
+	}
+
+	div#top_nav_border {
+            position:absolute;
+	    top: 23;
+	    width: 100%;
+	    border-style: none;
+	    border-top-style: solid;
+	    border-width: 1px;
+	    border-color: #999999;
+	    left: 0;
+	}
+
+	div#top_nav a {
+	  padding-left: 4px;
+	  padding-right: 4px;
+	}
+
+	div.footer {
+	  text-align: center
+	}
+
+	div.footer a {
+	  padding-left: 2px;
+	  padding-right: 2px;
+	}
+
+	div#app_name {
+	  color: grey; 
+	  font-size: 28pt;
+	}
+	div#app_version {
+	  padding-top: 26px;
+	  padding-left: 5px;
+	  font-style: italic;
+	}
+	div#logoPanel div {
+	  float: left;
+	}
+
+	div#top_nav a.home img {
+	  vertical-align: bottom;
+	  margin-right: 3px;
+	}
+
+    h1.heading1 {
+	  font-size: 10pt;
+	  font-weight: bold;
+	  padding: 4px 0px 4px 5px;
+	  float: left;
+    }
+
+	.addthis_button_style {
+	  margin-top: 10px;
+	  margin-right: 3px;
+	  float: right;
+	  border: 0;
+	}
+
+
+/* copied from grails main.css */
+div.error ul {
+    list-style: none;
+    padding: 0;	
+}
+div.error li {
+    background: url(../images/skin/exclamation.png) 8px 0% no-repeat;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+
+/* NAVIGATION MENU */
+.nav {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    border-style: none none solid none;	
+    margin-top: 0px;
+    padding: 20px 12px;
+}
+
+.menuButton {
+    padding: 0 5px;
+    float: right;
+}
+
+.menuButton a {
+    /* color: #333; */ 
+    padding: 4px 6px;
+	/* text-decoration: none; */
+}
+
+/*
+.menuButton a:hover {
+	text-decoration: underline;
+}
+*/
+
+.menuButton a.list {
+    background: url(../images/skin/database_table.png) center left no-repeat;
+    padding-left: 20px;
+}
+.menuButton a.create {
+    background: url(../images/skin/database_add.png) center left no-repeat;
+    padding-left: 20px;
+}
+
+/* TABLES */
+
+.list table {
+    border: 1px solid #ccc;
+    width: 100%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.list table tr {
+    border: 0;
+}
+
+.list table td, .list table th { 
+    font: 11px verdana, arial, helvetica, sans-serif;
+    line-height: 12px;
+    padding: 5px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.list table th {
+    background: #fff url(../images/skin/shadow.jpg);
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+
+.list table th a:link, .list table th a:visited, .list table th a:hover {
+    color: #333;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.list table th.asc a, .list table th.desc a {
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.list table th.asc a {
+    background-image: url(../images/skin/sorted_asc.gif);
+}
+
+.list table th.desc a {
+    background-image: url(../images/skin/sorted_desc.gif);
+}
+
+.list table tr.odd {
+    background: #f7f7f7;
+}
+.list table tr.even {
+    background: #fff;
+}
+
+/* LIST */
+
+.list table {
+    border-collapse: collapse;
+}
+.list table th, .list table td {
+    border-left: 1px solid #ddd;
+}
+.list table th:hover, .list table tr:hover {
+    background: #b2d1ff;
+}
+
+/* PAGINATION */
+
+.paginateButtons {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    border-top: 0;
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtons a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}
+
