@@ -1,0 +1,42 @@
+/*
+ * The VObject GrailsFuse is an open source project and project skeleton that leverage 
+ * Grails Framework and it's plugins to jump-start development of web application 
+ * that running on Google App Engine (GAE/G). 
+ * Copyright (C) VObject.com
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ *
+ * Author: Lim Chee Kin (limcheekin@vobject.com)
+ *
+ */
+
+*:first-child+html div.custom_checkbox ul.holder { padding-bottom: 2px; } * html div.custom_checkbox ul.holder { padding-bottom: 2px; } /* ie7 and below */
+div.custom_checkbox { display: table-cell; }
+div.custom_checkbox ul.holder { float: left; padding: 0; margin: 0; border: 0;}
+div.custom_checkbox ul.holder li { float: left; list-style-type: none; margin: 1px; }
+div.custom_checkbox ul.holder li.bit-box, ul.holder li.bit-checkbox, ul.holder li.bit-displaybox { font: 11px "Lucida Grande", "Verdana"; height: 20px; }
+div.custom_checkbox ul.holder li.bit-box { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #999; background: #ccc; color: black; padding: 1px 5px 2px; }
+div.custom_checkbox ul.holder li.bit-box { padding-right: 15px; position: relative; }
+div.custom_checkbox ul.holder li.bit-box span {vertical-align:middle;}
+div.custom_checkbox ul.holder li.bit-box span a.closebutton { position: absolute; right: 4px; top: 5px; display: block; width: 7px; height: 7px; font-size: 1px; background: url('../images/close.png'); margin-top:2px}
+div.custom_checkbox ul.holder li.bit-box span a.closebutton:hover { background-position: 7px; }
+
+div.custom_checkbox ul.holder li.bit-checkbox { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #ccc; background: white; color: black; padding: 1px 5px 2px; }
+div.custom_checkbox ul.holder li.bit-checkbox { padding-right: 3px; position: relative; }
+div.custom_checkbox ul.holder li.bit-checkbox input { width:15px; height:15px; margin: 0 2px 0 0; border:0; padding:0 }
+
+div.custom_checkbox ul.holder li.bit-displaybox { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #999; background: #ccc; color: black; padding: 1px 5px 2px; }
+div.custom_checkbox ul.holder li.bit-displaybox { padding-right: 6px; position: relative; }
+div.custom_checkbox ul.holder li.bit-displaybox span { vertical-align: middle; }
