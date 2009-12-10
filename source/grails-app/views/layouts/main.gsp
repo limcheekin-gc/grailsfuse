@@ -24,6 +24,8 @@
 --}%
 
 <%@ page import="grails.util.GrailsNameUtils" %>
+<%@ page import="org.codehaus.groovy.grails.commons.ConfigurationHolder" %>
+
 
 <html>
     <head>
@@ -69,7 +71,7 @@
 	$(document).ready(function() {
 	    // Google Analytics tracking code
 	    try {
-		var pageTracker = _gat._getTracker("UA-11651689-2");
+		var pageTracker = _gat._getTracker(ConfigurationHolder.config.vobject.grailsfuse.googleAnalyticsTrackingCode);
 		pageTracker._trackPageview();
 	    } catch(err) {}
 
