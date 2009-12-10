@@ -105,6 +105,7 @@ vobject {
 
     grailsfuse {
         grailsPluginUrl = "http://www.grails.org/plugin/"
+		googleAnalyticsTrackingCode = "UA-11999748-1"
     }
 }
 
