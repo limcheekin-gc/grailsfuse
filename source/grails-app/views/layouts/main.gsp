@@ -71,7 +71,7 @@
 	$(document).ready(function() {
 	    // Google Analytics tracking code
 	    try {
-		var pageTracker = _gat._getTracker(ConfigurationHolder.config.vobject.grailsfuse.googleAnalyticsTrackingCode);
+		var pageTracker = _gat._getTracker("${ConfigurationHolder.config.vobject.grailsfuse.googleAnalyticsTrackingCode}");
 		pageTracker._trackPageview();
 	    } catch(err) {}
 
