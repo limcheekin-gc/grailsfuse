@@ -29,7 +29,7 @@ class AuthenticationService {
     boolean transactional = false
 
     def findUser(String email) {
-	def user = User.findByEmail(email)
-	return user
+		def user = User.findByEmail(email)
+		return user
     }
 }

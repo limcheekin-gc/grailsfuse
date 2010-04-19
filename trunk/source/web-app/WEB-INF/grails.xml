@@ -1,0 +1,33 @@
+<grails>
+  <resources>
+    <resource>org.grails.appengine.AppEngineReloadController</resource>
+    <resource>BootStrap</resource>
+    <resource>com.vobject.security.SecurityFilters</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>AppEngineGormTestController</resource>
+    <resource>com.vobject.security.AuthenticationController</resource>
+    <resource>com.vobject.security.RoleController</resource>
+    <resource>com.vobject.security.UserController</resource>
+    <resource>com.vobject.appengine.gorm.Permission</resource>
+    <resource>com.vobject.appengine.gorm.Role</resource>
+    <resource>com.vobject.appengine.gorm.User</resource>
+    <resource>com.vobject.security.Permission</resource>
+    <resource>com.vobject.security.Role</resource>
+    <resource>com.vobject.security.User</resource>
+    <resource>com.vobject.security.AuthenticationService</resource>
+    <resource>com.vobject.security.AuthorizationService</resource>
+    <resource>AuthenticationTagLib</resource>
+    <resource>AuthorizationTagLib</resource>
+    <resource>GrailsFuseTagLib</resource>
+    <resource>BlowfishCodec</resource>
+    <resource>PasswordCodec</resource>
+  </resources>
+  <plugins>
+    <plugin>AppEngineGrailsPlugin</plugin>
+    <plugin>AppengineGormGrailsPlugin</plugin>
+    <plugin>GormJpaGrailsPlugin</plugin>
+  </plugins>
+</grails>

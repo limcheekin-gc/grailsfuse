@@ -98,7 +98,7 @@ vobject {
     security {
         defaultUrlAfterLogin="/index.gsp"
 	defaultUrlAfterLogout="/authentication/login"
-	permission.exceptedControllers=["Authentication", "AppEngineReload"]
+	permission.exceptedControllers=["Authentication", "AppEngineReload", "AppEngineGormTest"]
 	permission.exceptedActions=[]
 	permission.exceptedControllerActions=[]
     }

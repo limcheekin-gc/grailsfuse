@@ -72,7 +72,7 @@
 				<td>
 				<div class="custom_checkbox"><ul>
 				<%
-				def filterClosure = { it, param -> it.controller.equalsIgnoreCase(param.controller) }
+				def filterClosure = { permission, param -> permission.controller.equalsIgnoreCase(param.controller) }
 				%>
 				<g:each var="action" in="${roleInstance.permissions.findAll(filterClosure.curry([controller:c.name]))*.action.sort()}">
 				   <li><span>${GrailsNameUtils.getNaturalName(action)}</span></li>
