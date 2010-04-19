@@ -45,7 +45,7 @@
 	<script src="${resource(dir:'js',file:'toggle-blueprint-grid.js')}" type="text/javascript"></script>
         <g:javascript library="application" />	
 	<!-- Used for Sharing. eg: Facebook Begin -->
-	<meta name="title" content="<g:layoutTitle default="Grails" /> | VObject GrailsFuse" /> 
+	<meta name="title" content="Jump Start Grails Application on Google App Engine! | VObject GrailsFuse" /> 
 	<meta name="description" content="Jump Start Grails Application on Google App Engine!" /> 
 	<link rel="image_src" href="${resource(dir:'images',file:'vobject_logo.png')}" />
 	<!-- Used for Sharing. End -->
