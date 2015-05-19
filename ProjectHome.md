@@ -1,0 +1,1 @@
+The GrailsFuse is an open source project and project skeleton that leverage [Grails Framework](http://grails.org) and it's [plugins](http://grails.org/plugin/home) to jump-start development of web application that running on Google App Engine (GAE/G).
